@@ -1,14 +1,14 @@
 // import "@/css/satoshi.css";
-import "@/src/css/satoshi.css"
-import "@/"
-import "@/src/css/style.css";
+import "@/css/satoshi.css"
+// import "@/"
+import "@/css/style.css";
 
-import { Sidebar } from "@/src/components/Layouts/sidebar";
+import { Sidebar } from "@/components/Layouts/sidebar";
 
 import "flatpickr/dist/flatpickr.min.css";
 import "jsvectormap/dist/jsvectormap.css";
 
-import { Header } from "@/src/components/Layouts/header";
+import { Header } from "@/components/Layouts/header";
 import type { Metadata } from "next";
 import NextTopLoader from "nextjs-toploader";
 import type { PropsWithChildren } from "react";

@@ -1,12 +1,12 @@
 "use client";
 
-import { ChevronUpIcon } from "@/src/assets/icons";
+import { ChevronUpIcon } from "@/assets/icons";
 import {
   Dropdown,
   DropdownContent,
   DropdownTrigger,
-} from "@/src/components/ui/dropdown";
-import { cn } from "@/src/lib/utils";
+} from "@/components/ui/dropdown";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";

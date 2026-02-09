@@ -1,7 +1,7 @@
-import { PeriodPicker } from "@/src/components/period-picker";
-import { standardFormat } from "@/src/lib/format-number";
-import { cn } from "@/src/lib/utils";
-import { getPaymentsOverviewData } from "@/src/services/charts.services";
+import { PeriodPicker } from "@/components/period-picker";
+import { standardFormat } from "@/lib/format-number";
+import { cn } from "@/lib/utils";
+import { getPaymentsOverviewData } from "@/services/charts.services";
 import { PaymentsOverviewChart } from "./chart";
 
 type PropsType = {

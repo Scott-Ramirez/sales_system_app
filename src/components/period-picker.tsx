@@ -1,7 +1,7 @@
 "use client";
 
-import { ChevronUpIcon } from "@/src/assets/icons";
-import { cn } from "@/src/lib/utils";
+import { ChevronUpIcon } from "@/assets/icons";
+import { cn } from "@/lib/utils";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { Dropdown, DropdownContent, DropdownTrigger } from "./ui/dropdown";
